@@ -2,10 +2,10 @@
 <html>
 <head>
     <link rel="stylesheet" type="static/css" href="style.css">
-    <link rel="shortcut icon" href="http://www.svoysite.info/wp-content/uploads/2010/01/ico3.gif" type="image/x-icon">
+    <link rel="stylesheet" href="${request.static_url('portal:static/style.css')}" type="text/css" media="screen" charset="utf-8" />
     <title>home</title>
 </head>
 <body>
-    <h1>${a}</h1>
+    <h1>hello</h1>
 </body>
 </html>
