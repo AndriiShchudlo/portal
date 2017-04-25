@@ -593,7 +593,7 @@ def run_buildout_in_process(command='buildout'):
         1,
         " use-dependency-links=false"
         # Leaving this here so we can uncomment to see what's going on.
-        #" log-format=%(asctime)s____%(levelname)s_%(message)s -vvv"
+        #" log-format=%(asctime)s____%(levelname)s_%(message)s -vvv.py"
         " index=" + __file__ + 'nonexistent' # hide index
         )
     command = ' '.join(command)

@@ -92,7 +92,7 @@ We should be able to deal with setup scripts that aren't setuptools based.
     -  foo.egg-link
     -  zc.recipe.egg.egg-link
 
-    >>> print_(system(join('bin', 'buildout')+' -vvv'), end='')
+    >>> print_(system(join('bin', 'buildout')+vvv.pypy'), end='')
     ... # doctest: +ELLIPSIS
     Installing...
     Develop: '/sample-buildout/foo'
