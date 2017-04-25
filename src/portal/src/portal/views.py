@@ -16,9 +16,9 @@ def home(request):
         firstName=row[1]
         lastName=row[2]
     res = {
-        'id':str(id),
-        'first':firstName,
-        'last':lastName,
+        'id': str(id),
+        'first': firstName,
+        'last': lastName,
     }
     print (firstName)
     conn.close()
