@@ -11,6 +11,15 @@ def home(request):
     cursor.execute('SELECT * FROM users')
     results = cursor.fetchall()
     print (results)
-
+    for row in results:
+        id = row[0]
+        firstName=row[1]
+        lastName=row[2]
+    res = {
+        'id':str(id),
+        'first':firstName,
+        'last':lastName,
+    }
+    print (firstName)
     conn.close()
-    return {}
+    return res

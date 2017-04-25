@@ -279,7 +279,7 @@ class FoxProLexer(RegexLexer):
              r'Close|Cls|CursorAttach|CursorDetach|CursorFill|'
              r'CursorRefresh|DataToClip|DelayedMemoFetch|DeleteColumn|'
              r'Dock|DoMessage|DoScroll|DoStatus|DoVerb|Drag|Draw|Eval|'
-             r'GetData|GetDockState|GetFormat|GetKey|GetLatestVersion|'
+             r'GetData.py|GetDockState|GetFormat|GetKey|GetLatestVersion|'
              r'GetPageHeight|GetPageWidth|Help|Hide|IncludePageInOutput|'
              r'IndexToItemID|ItemIDToIndex|Item|LoadXML|Line|Modify|'
              r'MoveItem|Move|Nest|OLEDrag|OnPreviewClose|OutputPage|'
