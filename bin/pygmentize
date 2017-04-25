@@ -1,0 +1,34 @@
+#!/usr/bin/python2.7
+
+import sys
+sys.path[0:0] = [
+  '/data/andriis/project/portal/src/portal/src',
+  '/data/andriis/project/portal/eggs/Paste-2.0.3-py2.7.egg',
+  '/data/andriis/project/portal/eggs/pyramid-1.8.3-py2.7.egg',
+  '/data/andriis/project/portal/eggs/waitress-1.0.2-py2.7.egg',
+  '/data/andriis/project/portal/eggs/pyramid_debugtoolbar-3.0.5-py2.7.egg',
+  '/data/andriis/project/portal/eggs/pyramid_tm-2.0-py2.7.egg',
+  '/data/andriis/project/portal/eggs/pyramid_sacrud-0.3.3-py2.7.egg',
+  '/data/andriis/project/portal/eggs/pyramid_jinja2-2.7-py2.7.egg',
+  '/data/andriis/project/portal/eggs/transaction-2.1.2-py2.7.egg',
+  '/data/andriis/project/portal/eggs/Pygments-2.2.0-py2.7.egg',
+  '/data/andriis/project/portal/eggs/repoze.lru-0.6-py2.7.egg',
+  '/usr/lib/python2.7/site-packages',
+  '/data/andriis/project/portal/eggs/pyramid_mako-1.0.2-py2.7.egg',
+  '/data/andriis/project/portal/eggs/hupper-0.4.4-py2.7.egg',
+  '/data/andriis/project/portal/eggs/PasteDeploy-1.5.2-py2.7.egg',
+  '/data/andriis/project/portal/eggs/translationstring-1.3-py2.7.egg',
+  '/data/andriis/project/portal/eggs/venusian-1.1.0-py2.7.egg',
+  '/data/andriis/project/portal/eggs/zope.deprecation-4.2.0-py2.7.egg',
+  '/data/andriis/project/portal/eggs/zope.interface-4.4.0-py2.7-linux-x86_64.egg',
+  '/data/andriis/project/portal/eggs/WebOb-1.7.2-py2.7.egg',
+  '/data/andriis/project/portal/eggs/pyramid_chameleon-0.3-py2.7.egg',
+  '/data/andriis/project/portal/eggs/MarkupSafe-1.0-py2.7-linux-x86_64.egg',
+  '/data/andriis/project/portal/eggs/Mako-1.0.6-py2.7.egg',
+  '/data/andriis/project/portal/eggs/Chameleon-3.1-py2.7.egg',
+  ]
+
+import pygments.cmdline
+
+if __name__ == '__main__':
+    sys.exit(pygments.cmdline.main())

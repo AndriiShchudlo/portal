@@ -1,0 +1,10 @@
+README.txt
+setup.py
+src/portal/__init__.py
+src/portal/views.py
+src/portal.egg-info/PKG-INFO
+src/portal.egg-info/SOURCES.txt
+src/portal.egg-info/dependency_links.txt
+src/portal.egg-info/entry_points.txt
+src/portal.egg-info/requires.txt
+src/portal.egg-info/top_level.txt

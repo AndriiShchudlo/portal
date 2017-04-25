@@ -1,0 +1,3 @@
+[run]
+source = portal
+omit = portal/test*
