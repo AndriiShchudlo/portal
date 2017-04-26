@@ -1,5 +1,6 @@
 from pyramid.view import view_config
 import sqlite3
+from pyramid.response import Response
 
 @view_config(route_name='home', renderer='templates/home.pt')
 def home(request):
@@ -11,15 +12,9 @@ def home(request):
     cursor.execute('SELECT * FROM users')
     results = cursor.fetchall()
     print (results)
-    for row in results:
-        id = row[0]
-        firstName=row[1]
-        lastName=row[2]
-    res = {
-        'id': str(id),
-        'first': firstName,
-        'last': lastName,
-    }
-    print (firstName)
+
+
+
+
     conn.close()
-    return res
+    return {'user': results}

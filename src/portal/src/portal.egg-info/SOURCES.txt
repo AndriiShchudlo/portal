@@ -1,6 +1,7 @@
 README.txt
 setup.py
 src/portal/__init__.py
+src/portal/models.py
 src/portal/views.py
 src/portal.egg-info/PKG-INFO
 src/portal.egg-info/SOURCES.txt
